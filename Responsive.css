@@ -1,0 +1,114 @@
+@media (min-width:1920px){
+  body{
+    width: 80%;
+    margin: auto;
+  }
+
+}
+
+
+@media (max-width:1300px){
+  .navlist a,
+  .navlist i{
+    font-weight:700;
+    font-size: 2vw;
+  }
+
+  .hero-end p {
+    line-height: 3vw;
+    letter-spacing: 1.5px;
+    font-size: 2vw;
+  }
+
+  .feature-text {
+    font-size: 2.5vw;
+  }
+
+  .fright .frimage {
+    width: 90%;
+    height: 100%;
+  }
+
+  .fleftelem h3 {
+    font-size: 2.5vw;
+  }
+
+  .fbtn {
+    padding: 1.5vw 2.5vw;
+    font-size: 2.5vw;
+  }
+
+  .devtext p {
+    font-size: 2vw;
+    line-height: 20px;
+  }
+
+  #slides {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vw;
+  }
+
+  .slide {
+    width: 70%;
+    margin-bottom: 10vw;
+  }
+
+  .slide h3 {
+    font-size: 2vw;
+  }
+}
+
+
+@media (max-width:535px){
+
+  .logo img {
+    width: 16vw;
+  }
+
+  .navlist a,
+  .navlist i{
+    font-size: 3.5vw;
+  }
+
+  .hero-h1 {
+    gap: 10px;
+    font-size: 3.4vw;
+    -webkit-text-stroke: none;
+    color: black;
+    line-height: 1;
+  }
+
+  .hero-end p {
+    width: 80%;
+    line-height: 5vw;
+    letter-spacing: 1.5px;
+    font-size: 3.5vw;
+  }
+
+  #feature {
+    display: none;
+  }
+
+  .devtext h1 {
+    font-size: 5.5vw;
+    font-weight: 600;
+    width: 80%;
+  }
+
+  .devtext p {
+    font-size: 3vw;
+    line-height: 20px;
+    width: 80%;
+  }
+
+  .slide {
+    width: 100%;
+  }
+
+  .slide h3 {
+    font-size: 2.5vw;
+  }
+
+
+}
